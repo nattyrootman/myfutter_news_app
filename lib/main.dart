@@ -3,7 +3,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:infos_app/mali_sugu/sugu_accueil.dart';
+
 import 'package:infos_app/repository/repository.dart';
 import 'package:infos_app/screens/navigation.dart';
 
@@ -126,13 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Tab(child: Sports()),
       ]),
 
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => Acueil()));
-        },
-        child: const Icon(Icons.add),
-      ),
+     
     );
   }
 }
